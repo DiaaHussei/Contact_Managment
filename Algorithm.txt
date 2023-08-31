@@ -24,4 +24,3 @@ Algorithm for the given code:
 
 4. Run the main() function if the module is executed directly.
 
-Note: The provided code has some minor typos and inconsistencies, which have been corrected in the algorithm.
