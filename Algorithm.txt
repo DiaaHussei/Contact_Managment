@@ -1,0 +1,27 @@
+Algorithm for the given code:
+
+1. Create a class named Contact with the following attributes:
+   - contact_num (class attribute to track the number of users)
+   - show_contact_number() method to print the contact_num class attribute
+   - init() method to initialize the object with name, phone, and email attributes
+   - str() method to return a human-readable string of the object's attributes
+
+2. Create a class named ContactManager with the following methods:
+   - init() method to initialize the object with a list of contacts
+   - add_contact() method to add a contact to the member list
+   - remove_contact() method to remove a contact from the member list and decrement the contact_num class attribute
+   - showAll() method to display all the contacts in the member list
+
+3. Create a main() function to handle user input and interaction:
+   - Create an instance of the ContactManager class.
+   - Use a while loop to continuously display a menu and prompt the user for input.
+   - If the user enters "1", prompt for name, phone, and email inputs, create a Contact object with the inputs, and add it to the ContactManager instance.
+   - If the user enters "2", prompt for the name of the contact to be removed, and call the remove_contact() method of the ContactManager instance.
+   - If the user enters "3", prompt for the name of the contact to be searched, but leave it as pass since the code does not have the search functionality implemented.
+   - If the user enters "4", call the showAll() method of the ContactManager instance to display all the contacts.
+   - If the user enters "5" or "exit", print "Goodbye ^^" and break out of the loop.
+   - If the user enters any other value, print "Sorry Wrong Operation".
+
+4. Run the main() function if the module is executed directly.
+
+Note: The provided code has some minor typos and inconsistencies, which have been corrected in the algorithm.
